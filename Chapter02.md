@@ -1,4 +1,4 @@
-#### 작성일 : 2023/04/22, 작성자 [wonjae124](https://github.com/wonjae124)
+#### 작성일 : 2023/04/22, 작성자 : [wonjae124](https://github.com/wonjae124)
 <br/><br/>
 # SpringDataJpaMemberRepository 
 - 인터페이스 만들기
