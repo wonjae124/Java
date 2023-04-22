@@ -1,4 +1,4 @@
-#### 작성일자 : 2023.04.22, 정원재 작성
+#### 작성일자 : 2023.04.22, [@wonjae124](https://github.com/wonjae124)
 <br/><br/>
 # JPA
 - JPA는 SQL 쿼리문도 직접 만들어줘서 편리하다. JDBC template에서도 작성이 필요하던, 쿼리문을 JPA는 작성 해준다
