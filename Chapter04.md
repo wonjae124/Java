@@ -20,6 +20,5 @@
   - JDBC에 Connection pool인 HikariCP가 내장되어 있다. transcation인 tx도 내장되어 있다.
   - hibernate 내장돼 있다.
 
-<img src="https://blog.kakaocdn.net/dn/bbpQ34/btrsaR2tf9k/kgLWHjGXjWBNkdmIp0kawk/img.png](https://github.com/wonjae124/Java/blob/main/image/img.png">
-
+<img src="https://github.com/wonjae124/Java/blob/main/image/img.png">
 <br/><br/>
