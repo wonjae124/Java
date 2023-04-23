@@ -1,12 +1,15 @@
 #### 작성일자 : 2023.04.22, [@wonjae124](https://github.com/wonjae124)
 <br/><br/>
+
 # JPA
 - JPA는 SQL 쿼리문도 직접 만들어줘서 편리하다. JDBC template에서도 작성이 필요하던, 쿼리문을 JPA는 작성 해준다
 - JPA를 통해서, 기존 sql, 데이터 중심 설계에서 -> 객체 중심의 설계로 패러다임 전환 가능
 - JPA를 사용한 개발 생산성을 크게 높일 수 있다
 - ORM(object relational database mapping), 객체와 db를 매핑한다.
 <br/>
+
 ## 과정
+
 ### bundle.gradle 변경
   - implementation 'org.springframework.boot:spring-boot-starter-data-jpa' 추가 : JPA, JDBC도 포함되어 있음
 - application.properties 변경
@@ -16,10 +19,13 @@
   ```
   spring.jpa.show-sql=true 
   spring.jpa.hibernate.ddl-auto=none
-<br/>   ```
+  ```
+<br/> 
+
 ### entity mapping 
   - main -> java -> domain 폴더 -> Member.java 파일에 @Entity, @Id, @GeneratedValue(strategy = GenerationType.IDENTITY) 추
 <br/>
+
 ### JpaMemberRepository 
   -  main -> java -> hello.hellospring -> Repository에 JpaMemberRepository.java 생성
   - pk 기반인건, JPA쿼리를 작성 안해도 된다.
@@ -75,7 +81,9 @@
   }
 
   ```
+
 <br/><br/>
+
 ---
 정리 : https://blog.naver.com/wonjae124/223081334425<br/>
 출처 : 스프링 입문 - 코드로 배우는 스프링 부트, 웹MVC, DB 접근 기술
