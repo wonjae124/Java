@@ -107,6 +107,7 @@
 
 ---
 <br/><br/>
+
 ### 00. 컴포넌트 ( Component )
 - 컴포넌트는 독립적인 단위 모듈이다. 유저가 사용하는 시스템에 대한 조작장치를 이야기한다.
 - @Component 란 
@@ -119,19 +120,19 @@
 ### 01. try, finally가 뭐지?
 - 메소드 내부에서 예외가 발생할 수 있는 코드 작성시 사용
 - try블록에서 일어난 일과 관계없이 finally안의 구문을 실행합니다. 
-
 - try - catch - finally를 모두 사용할 필요없이, try - finally로 사용할 수 있습니다. 하지만 try하나만 사용은 불가능합니다. 즉 try문법에서 catch와 finally는 둘 중 하나는 생략이 가능하지만, 둘 다 생략은 불가능합니다.
 <br/>
+
 https://crazykim2.tistory.com/744
 https://webclub.tistory.com/71
-
-
 <br/>
+
 ### 02. public Object execute(ProceedingJoinPoint joinPoint) throws Throwable 이거 예외 처리하는건가?
 - 형식 : public 리턴타입 메소드명(매개변수 선언1, ...) throws 예외클래스1, 예외클래스2, ...{}
 - 특징1 : throws 뒤에 Exception 만으로 모든 예외를 떠넘길 수 있다.
 - 종류 : throwable, exception, error, throws
  <br/>
+
 ### 03. 매개변수와 인수
 - 매개변수는 메서드에 입력으로 전달된 값을 받는 변수를 의미하고 인수는 메서드를 호출할 때 전달하는 입력값을 의미한다.
   ```
@@ -153,15 +154,15 @@ https://webclub.tistory.com/71
 <br/>
 출처 : https://wikidocs.net/225
 <br/>
+
 ### 04. public TimeTraceAop timeTraceAop() { return new TimeTraceAop();}
 - 스프링 빈 등록하는 TimeTraceAop()는 패키지일 뿐인데, 두 번이나 사용되는 이유가 뭐지? 
 함수인지 클래스인지 헷갈리는걸로 봐서, 자바에는 함수가 없는거 같다.
 그리고 내가 궁금한건, timeTraceAop()는 메서드인데, 왜 return 할 때 안 쓰이냐는거다.
 메서드를 return 해야 하는거 아닌가?
 <br/>
+
 ### 05. Lombok이란?
 Java의 라이브러리로 반복되는 메소드를 Annotation을 사용해서 자동으로 작성해주는 라이브러리
-
-
 
 <br/><br/>
