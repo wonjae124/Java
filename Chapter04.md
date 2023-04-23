@@ -52,6 +52,9 @@
       IOC는 메소드가 필요로 하는 자원들을 코드가 실행되는 타임에 전달을 하는 데,
 
       이를 DI(Dependcy Injection / 의존성 주입)이라고 합니다.
+<br/>
+### 단축키
+- 설정 : cltl + alt + s
 <br/><br/>
 
 reference : [Tistory, [Spring] Spring Core 설명](https://workshop-6349.tistory.com/entry/Spring-Core-Spring-Core-%EC%84%A4%EB%AA%85)
