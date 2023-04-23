@@ -53,6 +53,31 @@
 
       이를 DI(Dependcy Injection / 의존성 주입)이라고 합니다.
 <br/>
+- application.yaml
+
+  ```
+  spring:
+    datasource:
+      url: jdbc:h2:tcp://localhost/~/jpashop
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: create
+      properties:
+        hibernate:
+          format_sql: true
+
+  logging.level:
+    org.hibernate.SQL: debug
+  #  org.hibernate.type: trace
+
+  ```
+  - ddl-auto: create로 테이블 생성
+  <img src="https://github.com/wonjae124/Java/blob/main/image/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png">
+
 ### 단축키
 - 설정 : cltl + alt + s
 <br/><br/>
