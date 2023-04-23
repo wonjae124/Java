@@ -46,10 +46,40 @@
     ```
   
 ![image](https://user-images.githubusercontent.com/67944072/233813257-824e4256-b6a0-42f3-b6be-e9085d30d4dc.png)
+<br/><br/>
 
 # AOP 
 - core concern과 cross-cutting conern을 분리할 수 있다.
 - Aspect Oriented Programming
+- 이번 강의는 Proxy 기반 AOP
+  ```
+  package hello.hellospring.aop;
+
+  import org.aspectj.lang.ProceedingJoinPoint;
+  import org.aspectj.lang.annotation.Around;
+  import org.aspectj.lang.annotation.Aspect;
+  import org.springframework.stereotype.Component;
+
+  @Aspect // 적어줘야 필수
+  @Component
+  public class TimeTraceAop {
+      @Around("execution(* hello.hellospring..*(..))") // 타게팅
+      public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
+          long start = System.currentTimeMillis();
+
+          System.out.println("Start: " + joinPoint.toString()); // 어떤 메서드를 콜하는지 읽을 수 있다.
+          try {
+              return joinPoint.proceed();            // 그 다음으로 진행한다.
+
+          } finally {
+              long finish = System.currentTimeMillis();
+              long timeMs = finish - start;
+              System.out.println("END: " + joinPoint.toString() + " " + timeMs + "ms"); // 어떤 메서드를 콜하는지 읽을 수 있다.
+          }
+      }
+  }
+
+  ```
 - (issue) 빈 순환충돌
   ```
   Description:
