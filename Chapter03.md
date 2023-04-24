@@ -6,6 +6,7 @@
 - 공통 관심사항(시간 측정, cross-cutting concern)), 핵심 관심사항(비즈니스 로직, core concern)
 - 문제, 핵심 비즈니스 로직과 공통 관심사항이 섞이면 유지보수가 어렵다.
 <br/>
+
 - MemberService
   
   ```
