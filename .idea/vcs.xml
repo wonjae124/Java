@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
+=======
+    <mapping directory="$PROJECT_DIR$/code/jpashop" vcs="Git" />
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
   </component>
 </project>

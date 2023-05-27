@@ -3,7 +3,10 @@ package jpabook.jpashop.domain.item;
 // 구현체를 만들거기 때문에, 추상화한다.
 
 import jpabook.jpashop.domain.Category;
+<<<<<<< HEAD
 import jpabook.jpashop.exception.NotEnoughStockException;
+=======
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
 import lombok.Getter;
 import lombok.Setter;
 
@@ -28,6 +31,7 @@ public abstract class Item {
 
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<>();
+<<<<<<< HEAD
 
     //==상품 도메인 비즈니스 로직 추가==//
 
@@ -48,5 +52,7 @@ public abstract class Item {
         }
         this.stockQuantity = resStock;
     }
+=======
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
 }
 

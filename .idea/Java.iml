@@ -2,9 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+<<<<<<< HEAD
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/code/jpashop" isTestSource="false" />
     </content>
+=======
+    <content url="file://$MODULE_DIR$" />
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

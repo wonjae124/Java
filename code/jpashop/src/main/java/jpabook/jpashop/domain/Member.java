@@ -14,7 +14,11 @@ public class Member {
     @Id @GeneratedValue
     @Column(name = "member_id") // 매핑에서 보면 pk가 member_id 이다. 설정 안해주면 아랫 줄의 id로 설정된다.
     private Long id;
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
     private String name;
 
     @Embedded

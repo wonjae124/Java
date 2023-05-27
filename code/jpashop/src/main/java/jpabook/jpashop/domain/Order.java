@@ -55,6 +55,7 @@ public class Order {
         this.delivery = delivery;
         delivery.setOrder(this);
     }
+<<<<<<< HEAD
 
     //== 주문 생성 메소드==//
     public static Order createOrder(Member member, Delivery delivery, OrderItem... orderItems) {
@@ -94,4 +95,6 @@ public class Order {
                 .mapToInt(OrderItem::getTotalPrice) // 결과값의 int를 전부 stream으로 모은다.
                 .sum();
     }
+=======
+>>>>>>> c068d0d4f88b34d904702c0f820d5abd175d27d8
 }
